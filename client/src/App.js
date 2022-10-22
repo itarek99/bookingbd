@@ -1,11 +1,27 @@
-import { Button } from 'react-bootstrap';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './layouts/Main/Main';
+import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
 
 function App() {
-  return (
-    <div className='App'>
-      <Button variant='primary'>HI</Button>
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main />,
+      children: [
+        {
+          path: '/',
+          element: <Home />,
+        },
+        {
+          path: '/login',
+          element: <Login />,
+        },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
