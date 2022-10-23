@@ -1,19 +1,35 @@
+import { useContext } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthProvider';
 
 const Login = () => {
+  const { loginWithEmailPassword } = useContext(AuthContext);
+
+  const handleLoginWithEmailPassword = (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.password.value;
+
+    loginWithEmailPassword(email, password)
+      .then(() => {})
+      .catch((err) => console.error(err));
+  };
+
   return (
     <Container style={{ minHeight: '80vh' }}>
       <div className='mx-auto' style={{ maxWidth: '500px' }}>
-        <Form className='mt-5'>
+        <Form onSubmit={handleLoginWithEmailPassword} className='mt-5'>
           <Form.Group className='mb-3' controlId='formBasicEmail'>
             <Form.Label>Email</Form.Label>
-            <Form.Control type='email' placeholder='Enter email' />
+            <Form.Control type='email' name='email' placeholder='Enter email' />
           </Form.Group>
 
           <Form.Group className='mb-1' controlId='formBasicPassword'>
             <Form.Label>Password</Form.Label>
-            <Form.Control type='password' placeholder='Password' />
+            <Form.Control type='password' name='password' placeholder='Password' />
           </Form.Group>
           <div className='mb-3'>
             <Link className='fs-14' to='/register'>
