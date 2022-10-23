@@ -19,8 +19,8 @@ const HotelCard = ({ hotel }) => {
             <h5 className='card-title m-0 mb-1'>{hotel.name}</h5>
             <p className='m-0 fw-bold fs-14 mb-2'>{hotel_location}</p>
             <p className='card-text fs-14'>{details}</p>
-            <Button className='rounded-1' variant='success'>
-              Reserver
+            <Button className='rounded-0' variant='info'>
+              Reserve
             </Button>
           </div>
         </div>

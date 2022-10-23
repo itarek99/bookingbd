@@ -3,6 +3,7 @@ import Main from './layouts/Main/Main';
 import Home from './pages/Home/Home';
 import Hotels from './pages/Hotels/Hotels';
 import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
         {
           path: '/login',
           element: <Login />,
+        },
+        {
+          path: '/register',
+          element: <Register />,
         },
       ],
     },
