@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1111,
+    "location_id": "coxsbazar",
+    "hotel_location": "Cox's Bazar",
+    "name": "Long Beach Hotel",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1112,
+    "location_id": "coxsbazar",
+    "hotel_location": "Cox's Bazar",
+    "name": "Hotel Kollol by J&Z Group",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1113,
+    "location_id": "coxsbazar",
+    "hotel_location": "Cox's Bazar",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1114,
+    "location_id": "saintmatin",
+    "hotel_location": "Saint Martin",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1115,
+    "location_id": "sajek",
+    "hotel_location": "Sajek",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1116,
+    "location_id": "rangamati",
+    "hotel_location": "Rangamati",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1117,
+    "location_id": "sundarban",
+    "hotel_location": "Sundarban",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1118,
+    "location_id": "srimongol",
+    "hotel_location": "Srimongol",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1118,
+    "location_id": "bandarban",
+    "hotel_location": "Bandarban",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1120,
+    "location_id": "jaflong",
+    "hotel_location": "Jaflong",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1121,
+    "location_id": "jaflong",
+    "hotel_location": "Jaflong",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 1122,
+    "location_id": "kuakata",
+    "hotel_location": "Kuakata",
+    "name": "Hotel Sea Crown",
+    "details": "Offering an indoor pool, a fitness center and a spa and wellness center, Long Beach Hotel is located 2.1 mi from the Cox's Bazar Airport and Local Bus Station.",
+    "star": 4,
+    "score": 6.5,
+    "imgURL": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  }
+]

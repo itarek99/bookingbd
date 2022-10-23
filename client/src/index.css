@@ -1,0 +1,13 @@
+.swiper-title {
+  position: absolute !important;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
