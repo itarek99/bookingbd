@@ -22,6 +22,11 @@ app.get('/hotels/:id', (req, res) => {
   res.send(locationHotels);
 });
 
+app.get('/hotel/:id', (req, res) => {
+  const hotel = hotels.find((hotel) => hotel.id == req.params.id);
+  res.send(hotel);
+});
+
 app.listen(port, () => {
   console.log(`Booking BD app listening on port ${port}`);
 });

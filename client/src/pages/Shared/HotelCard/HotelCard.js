@@ -1,4 +1,4 @@
-import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const HotelCard = ({ hotel }) => {
   const { details, imgURL, hotel_location } = hotel;
@@ -19,9 +19,9 @@ const HotelCard = ({ hotel }) => {
             <h5 className='card-title m-0 mb-1'>{hotel.name}</h5>
             <p className='m-0 fw-bold fs-14 mb-2'>{hotel_location}</p>
             <p className='card-text fs-14'>{details}</p>
-            <Button className='rounded-0' variant='info'>
+            <Link className='rounded-0 btn btn-info' to={`/hotel/${hotel.id}`}>
               Reserve
-            </Button>
+            </Link>
           </div>
         </div>
       </div>

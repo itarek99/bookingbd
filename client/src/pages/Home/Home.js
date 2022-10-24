@@ -63,26 +63,26 @@ const Home = () => {
           <Col lg={4} className='py-4 py-lg-5 px-4 bg-light'>
             <h4>Why Booking BD?</h4>
             <p className='fs-14'>
-              Sit cum illum, minus odio vel quae totam nostrum possimus repellendus nam ratione dolores nisi vitae
-              deserunt maiores? Sunt amet mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem
-              possimus quas eveniet vero culpa illo.
+              Ei quae totam nostrum possimus repellendus nam ratione dolores nisi vitae deserunt maiores? Sunt amet
+              mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem possimus quas eveniet vero
+              culpa illo.
             </p>
           </Col>
           <Col lg={4} className='py-4 py-lg-5 px-4 bg-light'>
             <h4>Book Local Hotels</h4>
             <p className='fs-14'>
-              Sit cum illum, minus odio vel quae totam nostrum possimus repellendus nam ratione dolores nisi vitae
-              deserunt maiores? Sunt amet mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem
-              possimus quas eveniet vero culpa illo.
+              Sit cum illum, minus odio vel quae totam nostrum nam ratione dolores nisi vitae deserunt maiores? Sunt
+              amet mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem possimus quas eveniet
+              vero culpa illo.
             </p>
           </Col>
 
           <Col lg={4} className='py-4 py-lg-5 px-4 bg-light'>
-            <h4>Book International Hotels</h4>
+            <h4>Have a Relax</h4>
             <p className='fs-14'>
-              Sit cum illum, minus odio vel quae totam nostrum possimus repellendus nam ratione dolores nisi vitae
-              deserunt maiores? Sunt amet mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem
-              possimus quas eveniet vero culpa illo.
+              Minus odio vel quae totam nostrum possimus nam ratione dolores nisi vitae deserunt maiores? Sunt amet
+              mollitia ratione itaque exercitationem enim expedita dolor nemo illum, autem possimus quas eveniet vero
+              culpa illo.
             </p>
           </Col>
         </Row>

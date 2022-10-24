@@ -1,10 +1,15 @@
 import { useContext } from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider';
 
 const Login = () => {
   const { loginWithEmailPassword } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location.state?.from?.pathname || '/';
+
+  console.log(from);
 
   const handleLoginWithEmailPassword = (e) => {
     e.preventDefault();
@@ -14,7 +19,9 @@ const Login = () => {
     const password = form.password.value;
 
     loginWithEmailPassword(email, password)
-      .then(() => {})
+      .then(() => {
+        navigate(from, { replace: true });
+      })
       .catch((err) => console.error(err));
   };
 

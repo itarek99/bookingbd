@@ -8,8 +8,8 @@ const Footer = () => {
           <Col lg={4}>
             <h4>bookingbd.com</h4>
             <p className='m-0 fs-14'>
-              Booking, Property Booking, Hotels Booking, Resorts Booking, Tourist Spots, Travel Information, Travel
-              Planning, Buy Ticket everything of Travel & Tourism.
+              Booking, Property Booking, Hotels Booking, Resorts Booking, Tourist Spots, Travel Planning, Buy Ticket
+              everything of Travel & Tourism.
             </p>
           </Col>
         </Row>

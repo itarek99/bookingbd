@@ -5,7 +5,7 @@ import HotelCard from '../Shared/HotelCard/HotelCard';
 const Hotels = () => {
   const hotels = useLoaderData();
   return (
-    <Container className='mt-4'>
+    <Container className='my-5'>
       <h3 className='mb-3'>
         {hotels[0].hotel_location}: {hotels.length} Hotels Found
       </h3>
